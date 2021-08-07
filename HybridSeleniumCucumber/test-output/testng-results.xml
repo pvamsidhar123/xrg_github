@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-26T12:32:53 PDT" name="Suite" finished-at="2020-08-26T12:33:14 PDT" duration-ms="21132">
+    <groups>
+    </groups>
+    <test started-at="2020-08-26T12:32:53 PDT" name="Test" finished-at="2020-08-26T12:33:14 PDT" duration-ms="21132">
+      <class name="com.testCase.LoginTestCase">
+        <test-method is-config="true" signature="stratUp()[pri:0, instance:com.testCase.LoginTestCase@1f12e153]" started-at="2020-08-26T12:33:02 PDT" name="stratUp" finished-at="2020-08-26T12:33:09 PDT" duration-ms="6472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stratUp -->
+        <test-method signature="login()[pri:0, instance:com.testCase.LoginTestCase@1f12e153]" started-at="2020-08-26T12:33:09 PDT" name="login" finished-at="2020-08-26T12:33:11 PDT" duration-ms="2649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.testCase.LoginTestCase@1f12e153]" started-at="2020-08-26T12:33:12 PDT" name="close" finished-at="2020-08-26T12:33:13 PDT" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.testCase.LoginTestCase -->
+      <class name="com.testCase.AdminTestCase">
+        <test-method is-config="true" signature="startup()[pri:0, instance:com.testCase.AdminTestCase@267bbe1a]" started-at="2020-08-26T12:32:53 PDT" name="startup" finished-at="2020-08-26T12:33:02 PDT" duration-ms="9165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="login()[pri:1, instance:com.testCase.AdminTestCase@267bbe1a]" started-at="2020-08-26T12:33:09 PDT" name="login" finished-at="2020-08-26T12:33:11 PDT" duration-ms="2700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="adminClick()[pri:2, instance:com.testCase.AdminTestCase@267bbe1a]" started-at="2020-08-26T12:33:12 PDT" name="adminClick" finished-at="2020-08-26T12:33:14 PDT" duration-ms="2219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminClick -->
+      </class> <!-- com.testCase.AdminTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
